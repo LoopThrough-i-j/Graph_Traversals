@@ -5,5 +5,6 @@ def factorial(n):
 
 if __name__ == "__main__":
 
-    n = int(input("Num: "))
-    print(factorial(n))
+    x = int(input("Num: "))
+    fac = factorial(x)
+    print(fac)
